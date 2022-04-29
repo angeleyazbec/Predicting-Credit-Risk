@@ -23,8 +23,7 @@ Created a training set from the 2019 loans using `pd.get_dummies()` to convert t
 
 Created a LogisticRegression model, fit it to the data, and printed the model's score. Conducted the same for the RandomForestClassifier. 
 
-![image](https://user-images.githubusercontent.com/90559756/165552236-a5ce6a13-df33-4d39-a458-41724ab63dda.png)
-
+![image](https://user-images.githubusercontent.com/90559756/165945143-0b4c6742-96eb-409e-9b2e-594688d7d78e.png)
 
 ## Revisit the Preprocessing: Scale the data
 
@@ -32,6 +31,9 @@ Used `StandardScaler` to scale the training and testing sets.
 
 Fit and scored the LogisticRegression and RandomForestClassifier models on the scaled data. 
 
-![image](https://user-images.githubusercontent.com/90559756/165552507-a5517f68-83ec-47aa-9a60-5f4a299cf107.png)
+![image](https://user-images.githubusercontent.com/90559756/165945245-111ed63c-9888-4a0e-9b18-bc479ef91008.png)
 
+## Evaluating Diagnostics
+
+Generated confusion matrices to see the number of true negatives, false negatives, false positive, and true positives predicted by the unscaled and scaled models. Also generated classification reports to discern the precision and sensitivity of the scaled and unscaled models.
 
